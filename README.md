@@ -7,4 +7,4 @@ A simple shell script to prettify a simple csv file
 Usage
 --------
 
-    $ cat data.csv | prettify_csv
+    $ prettify_csv data.csv 
