@@ -1,5 +1,5 @@
 #!/usr/bin/bash
 
 separator=$(awk 'NR==1{print $1}' $1 | grep -oe "\W" | uniq | tr -d '\040\011\012\015')
-awk '{print}' $1  | column -s"$separator" -t | less -S
+awk '{print}' $1 | sed "s/$separator/ $separator/g" | column -s"$separator" -t | less -S
 
