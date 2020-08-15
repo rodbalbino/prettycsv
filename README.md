@@ -6,8 +6,6 @@ Basically a alias to " | column -s; -t | less -S"
 
 ![Screenshot](https://github.com/rodbalbino/prettycsv/raw/master/example.png)
 
-
 Usage
---------
-
-    $ pretty_csv data.csv
+--------    
+$ prettify_csv data.csv 
